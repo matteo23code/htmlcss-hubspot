@@ -32,16 +32,30 @@
 }
 
 .jumbotron{
-  min-width: 1200px;
-  height: 570px;
-  background: url("../img/jumbotron.png");
-  background-size: cover;
+  height: 660px;
+  background-image: url("../img/jumbotron.png");
+  background-color: #FFF4EF;
+  background-repeat: no-repeat;
+  background-position: right top;
+  position: relative;
+}
+
+.jumbotron:after{
+  height: 50px;
+  width: 100%;
+  background-color: #3AC5B3;
+  position: absolute;
+  bottom: 0;
+  left:0;
+  content: "";
+  border-top: 2px solid#33475C;
+  border-bottom: 2px solid#33475C;
 }
 
 .navbar-1 {
   background: azure;
-  width: 100%;
   height: 50px;
+  line-height: 50px;
   border-bottom: 2px solid #3AC5B3;
 }
 
@@ -68,6 +82,7 @@ button{
 .language {
   background: azure;
   border-right: 2px solid grey;
+  padding-right: 10px;
 }
 
 .box-2 img{
@@ -86,6 +101,7 @@ button{
   width: 50px;
   height: 50px;
   margin-top: 10px;
+  margin-left: 10px;
 }
 
 select{
@@ -93,7 +109,7 @@ select{
   border: none;
 }
 
-.slogan{
+.slogan-1{
   display: inline-block;
   width: 40%;
   font-size: 15px;
@@ -101,7 +117,7 @@ select{
 
 }
 
-.slogan h1{
+.slogan-1 h1{
   font-size: 45px;
   color: #33475B;
   padding-bottom: 20px;
@@ -114,10 +130,67 @@ select{
   padding: 20px;
 }
 
-.main-row{
-  background: #7CDED2;
+.main-content{
+  background: #F5F8FA;
   width: 100%;
-  height: 50px;
+}
+
+
+.cubo-title{
+  width: 60%;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 16px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.cubo-title img{
+  width: 100px;
+  height: 100px;
+}
+
+.cubo-title h2{
+  color: #33475B;
+  padding-bottom: 20px;
+  font-size: 32px;
+}
+
+
+.freehub-row{
+  background-color: #fff;
+  box-shadow: 10px 10px 40px grey;
+  width: 1200px;
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+.libretto{
+  width: 200px;
+  height: 300px;
+  margin-left: 10%;
+  margin-top: 5%;
+  line-height: 30px;
+}
+
+.crm{
+  width:70%;
+  height: 150px;
+  vertical-align: middle;
+  color: #33475B;
+  margin-top: 5%;
+}
+
+.crm p{
+  padding: 30px 0;
+}
+
+.contact{
   display: inline-block;
-  border-bottom: 2px solid #3AC5B3;
+  margin-top: 10px;
+}
+
+.contact img{
+  width: 14px;
+  margin-right: 10px;
 }
