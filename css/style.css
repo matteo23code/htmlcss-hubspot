@@ -10,13 +10,13 @@
   clear:both;
 }
 
-/* ::after {
+.title2-column::before {
   content: '';
   display: inherit;
-  width: 25%;
+  width: 80%;
   border-bottom: 1px solid black;
-  margin: 20px auto;
-} */
+  margin: 60px auto;
+}
 
 .fl{
   float: left;
@@ -59,7 +59,7 @@
   border-bottom: 2px solid #3AC5B3;
 }
 
-li{
+.menu-filter{
   text-align: center;
   display: inline-block;
   line-height: 50px;
@@ -156,10 +156,15 @@ select{
   font-size: 32px;
 }
 
+.free{
+  font-size: 24px;
+  margin-top: 10%;
+}
+
 
 .freehub-row{
   background-color: #fff;
-  box-shadow: 10px 10px 40px grey;
+  box-shadow: 2px 2px 5px grey;
   width: 1200px;
   height: 300px;
   margin-bottom: 50px;
@@ -173,24 +178,82 @@ select{
   line-height: 30px;
 }
 
+.lean-more{
+  background:  #FF7A59;
+  color: white;
+  padding: 15px 35px;
+  margin-bottom: 10px;
+}
+
 .crm{
   width:70%;
-  height: 150px;
-  vertical-align: middle;
   color: #33475B;
-  margin-top: 5%;
+  line-height: 20px;
 }
 
 .crm p{
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
-.contact{
+.credit li{
+  list-style-type: none;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
-.contact img{
+.credit img{
   width: 14px;
   margin-right: 10px;
+}
+
+.marketing{
+  width: 33.333%;
+  height: 700px;
+  padding: 20px 50px 20px 0px;
+}
+
+.sales{
+  width: 33.333%;
+  height: 700px;
+  padding: 20px 30px;
+}
+
+.service{
+  width: 33.333%;
+  height: 700px;
+  padding: 20px 0px 20px 50px;
+}
+
+
+.column1{
+  width: 100%;
+  background: #fff;
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  line-height: 30px;
+  padding: 20px 0;
+}
+
+.column2{
+  width: 100%;
+  background: #fff;
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  line-height: 30px;
+  padding: 20px 0;
+}
+
+.column3{
+  width: 100%;
+  background: #fff;
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  line-height: 30px;
+  padding: 20px 0;
+}
+
+
+.feature li{
+  list-style-type: none;
+  text-align: left;
 }
