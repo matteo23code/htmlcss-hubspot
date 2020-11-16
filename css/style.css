@@ -286,12 +286,11 @@ select{
 .learn-and-grow{
   background: linear-gradient(45deg,#00a4bd,#00bda5);
   width: 100%;
-  height: 700px;
 }
 
 .learngrow-contain{
   width: 100%;
-  height: 400px;
+  height: 500px;
   margin: 0 auto;
 }
 
@@ -348,4 +347,51 @@ select{
 
 .box-top:nth-child(4){
   border:none;
+}
+
+.number64{
+  width: 15%;
+  text-align: left;
+  padding: 10px 10px;
+  margin: 5% 0 0 10%;
+  line-height: 25px;
+}
+
+.number64 h2{
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.sponsor{
+  width: 51%;
+  margin: 7% 10% 0 0;
+}
+
+.icon img{
+  width: 129px;
+  padding: 10px 20px 0 0;
+}
+
+.wistia img{
+  width: 160px;
+  height: 60px;
+  padding-left: 10px;
+}
+
+.growing{
+  width: 36%;
+  margin: 5% 0 0 10%;
+  text-align: left;
+  line-height: 30px;
+  padding: 0 10px;
+}
+
+.growing h2{
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.image img{
+  width: 300px;
+  height: 335px;
 }
