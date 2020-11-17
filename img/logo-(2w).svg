@@ -5,11 +5,11 @@
         fill:none;
       }
       .cls-2 {
-        fill: #2D3E50;
+        fill: white;
         clip-path:url(#clip-path);
       }
       .cls-3 {
-        fill: #FF7A59;
+        fill: white;
         clip-path:url(#clip-path-2);
       }
     </style>
